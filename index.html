@@ -15,11 +15,11 @@
         </div>
 
             <form class="registration" action="action.html" method="post">
-                <input type="text" name="fname" id="fname" placeholder="სახელი">
-                <input type="text" name="lname" id="fname" placeholder="გვარი">
+                <input type="text" name="fname" id="fname" placeholder="სახელი" required>
+                <input type="text" name="lname" id="fname" placeholder="გვარი" required>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="ტელეფონის ნომერი">
                 <h3>გთხოვთ მიუთითოთ ზუსტი მისამართი</h3>
-                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                <textarea name="address" id="address" cols="30" rows="10" required></textarea>
                 <h3> აირჩიეთ გადახდის მეთოდი</h3>
                 <input type="checkbox" name="paycard" id="paycard">
                 <label for="paycard">ბარათით გადახდა</label>
